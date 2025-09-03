@@ -1,0 +1,13 @@
+anotações de revisão geral. (explicar o que aprendeu)
+
+lang-iniciar com html, comando do html:5 que digita todo o prompt do html, alterar a linguagem de eng para pt-br
+title-abaixo disso tem os titulos que vai ficar no canto superior do site 
+body dentro de style.
+    abaixo coloquei as cores do site porquê é css, primeiro coloquei o colorbackground, 
+    após esse coloquei o color normal que é a cor geral das fontes da página.
+    depois a font da página colocar sempre : depois da fonte, normal ou qualquer outra coisa que seja, 15pt que é o tamanho da fonte e a fonte que vai ser Arial no caso.
+ainda dentro de body tem o titulo depois o paragrafo. e etc pois ainda está em css
+
+ai sim dentro de body coloquei os titulos e paragrafos que apareceram na tela
+script- os scripts de js que utilizo para aparecer os comandos na tela, window.alert que serve para dar um alerta na tela, window.prompt para escrever algo e window.confirm que é sim ou nao
+declarar variavel para armazenar coisas. e se for utilizar a variavel que declarou utilizar o + que serve como concatenação e se for digitar qualquer coisa, concatena com o + denovo abre aspas e escreve

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>relembrando</title>
+    <style> 
+        body {
+            background-color: blue; /* comentario em css */
+            color: rgb(4, 240, 240);
+            font:100 normal 15pt Arial 
+        }
+h1 {
+    color: rgb(0, 0, 0)
+}
+p {
+    color: brown;
+}
+    </style>
+</head>
+<body>
+<h1>Teste de titulo</h1> <!--comentario em html-->
+<p>teste de paragráfo</p>
+ </body>
+ <script>
+var n1 = Number(window.prompt('digite sua idade')) // String para number
+var n2 = Number(window.prompt('digite a idade do seu pai'))
+var s = n1 + n2
+window.alert('você tem n1 anos, e seu pai tem n2 anos a soma das idades sua e de seu pai é de s anos' ) // sem fazer interpolação.
+window.alert('você tem ' + n1 + " anos, e seu pai tem " + n2 + " anos a soma das idades sua e de seu pai é de =" +s.toString() + ' anos'   ) // usando concatenação
+window.alert(`você tem ${n1} anos e seu pai tem ${n2} anos a soma das idades sua e de seu pai é de = ${s}`  ) //usando template string (place holders)
+
+// + serve tanto para adição quanto para concatenação
+// usar Number antes do windowprompt porque faz com que o js reconheça a linha de codigo como idade, prosseguindo com a soma.
+</script>
+</html>
